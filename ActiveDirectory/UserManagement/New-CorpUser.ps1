@@ -1,3 +1,4 @@
+# irm "https://raw.githubusercontent.com/Torres1616/Powershell_Facilidades/main/ActiveDirectory/UserManagement/New-CorpUser.ps1" | iex
 function New-CorpUser {
     param(
         [Parameter(Mandatory=$true)][string]$Nome,
